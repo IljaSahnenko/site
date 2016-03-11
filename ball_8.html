@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Untitled</title>
+  <meta charset="windows-1251">
+  <style type="text/css">
+  #elements div{
+     display: none;
+  }
+  </style>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script>
+$(function () {
+var divs = $('#elements div'), div;
+div = divs.eq(Math.floor(Math.random() * divs.length));
+div.show()
+         });
+    </script>
+</head>
+
+<body>
+ <div id="elements">
+    <div id="container1">
+         Бесспорно
+    </div>
+    <div id="container2">
+        Предрешено
+    </div>
+    <div id="container3">
+        Никаких сомнений
+    </div>
+    <div id="container4">
+        Определённо да
+    </div>
+    <div id="container5">
+        Можешь быть уверен в этом
+    </div>
+    <div id="container6">
+        Мне кажется — «да»
+    </div>
+    <div id="container7">
+        Вероятнее всего
+    </div>
+    <div id="container8">
+        Хорошие перспективы
+    </div>
+    <div id="container9">
+        Знаки говорят — «да»
+    </div>
+    <div id="container10">
+        Да
+    </div>
+     <div id="container11">
+        Пока не ясно, попробуй снова
+    </div>
+    <div id="container12">
+        Спроси позже
+    </div>
+    <div id="container13">
+        Лучше не рассказывать
+    </div>
+    <div id="container14">
+        Сейчас нельзя предсказать
+    </div>
+    <div id="container15">
+        Сконцентрируйся и спроси опять
+    </div>
+    <div id="container16">
+        Даже не думай
+    </div>
+    <div id="container17">
+        Мой ответ — «нет»
+    </div>
+    <div id="container18">
+        По моим данным — «нет»
+    </div>
+    <div id="container19">
+        Перспективы не очень хорошие
+    </div>
+    <div id="container20">
+        Весьма сомнительно
+    </div>
+</div>
+<!-- <div id="ball"><img src="ball.png">
+</div> -->
+<form action="" method="" onsubmit="return false;">
+<input type="text" size="120">
+<input type="button" onclick="document.location.reload()" value="Спросить" />
+</form>
+</body>
+</html>
